@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { ThemeProvider } from 'react-jss';
+import { ConfigProvider, Button } from 'antd';
 import * as serviceWorker from './serviceWorker';
+import 'antd/dist/antd.less';
+import FileSearch from '@/components/file-search';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ConfigProvider>
+      <ThemeProvider theme={{}}>
+        <FileSearch />
+        <Button>确定</Button>
+      </ThemeProvider>
+    </ConfigProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
