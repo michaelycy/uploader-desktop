@@ -1,0 +1,18 @@
+{
+  "white": "#fff",
+  "black": "#000",
+  "primaryColor": "rgb(0, 99, 171)",
+  "infoColor": "rgb(0, 99, 171)",
+  "successColor": "rgb(29, 179, 149)",
+  "errorColor": "rgb(237, 87, 103)",
+  "warningColor": "rgb(248, 172, 90)",
+  "normalColor": "rgb(0, 99, 171)",
+  "processingColor": "rgb(0, 99, 171)",
+  "highlightColor": "rgb(237, 87, 103)",
+  "bodyBackground": "#f0f2f5",
+  "componentBackground": "rgb(255, 255, 255)",
+  "borderColorBase": "rgb(232, 232, 232)",
+  "borderColorSplit": "rgb(232, 232, 232)",
+  "popoverBackground": "rgb(255, 255, 255)",
+  "popoverCustomizeBorderColor": "rgb(232, 232, 232)"
+}

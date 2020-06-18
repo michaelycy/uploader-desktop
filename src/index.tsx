@@ -1,21 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ThemeProvider } from 'react-jss';
-import { ConfigProvider, Button } from 'antd';
 import * as serviceWorker from './serviceWorker';
-import 'antd/dist/antd.less';
-import FileSearch from '@/components/file-search';
+import AppView from './views';
+import 'mobx-react-lite/batchingForReactDom';
+
+const rootDom = document.getElementById('root');
+if (rootDom) {
+  rootDom.style.height = '100%';
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ConfigProvider>
-      <ThemeProvider theme={{}}>
-        <FileSearch />
-        <Button>确定</Button>
-      </ThemeProvider>
-    </ConfigProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
+  // <React.StrictMode>
+  <AppView />,
+  // </React.StrictMode>
+  rootDom
 );
 
 // If you want your app to work offline and load faster, you can change
