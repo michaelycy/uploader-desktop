@@ -12,6 +12,7 @@
     "dev": "concurrently \"npm start\" \"npx wait-on http://localhost:3000 && npm run ele\""
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.1",
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
     "@testing-library/jest-dom": "^4.2.4",
@@ -33,6 +34,7 @@
     "css-loader": "3.4.2",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
+    "easymde": "^2.10.1",
     "eslint": "^6.6.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-loader": "3.0.3",
